@@ -1,0 +1,46 @@
+.page-title {
+    color: #1d4a77;
+    font-size: 40px;
+
+    font-weight: bold;
+    font-family: "Montserrat", Arial, sans-serif;
+    text-align: center;
+}
+
+.page-text {
+    color: #1d4a77;
+    font-size: 18px;
+
+    font-weight: bold;
+    font-family: "Montserrat", Arial, sans-serif;
+
+}
+
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: black;
+    font-family: "Montserrat", Arial, sans-serif;
+
+}
+
+.icon {
+    color: #1d4a77;
+    font-size: 24px;
+    margin-right: 2%;
+}
+
+.para-text {
+    color: black;
+    font-size: 18px;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+.points {
+    color: aliceblue;
+    font-size: 24px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}

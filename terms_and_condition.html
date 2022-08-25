@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Flexiglobe</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+		integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Heder menubar start -->
+	<!-- <title>Demo - Bootstrap navbar megamenu dropdown. html code example </title> -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+		crossorigin="anonymous"></script>
+
+	<style type="text/css">
+	.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 15px;
+}
+
+		/* ============ desktop view ============ */
+
+		@media all and (min-width: 992px) {
+			.navbar .has-megamenu {
+				position: static !important;
+			}
+
+			.navbar .megamenu {
+				left: 0;
+				right: 0;
+				width: 100%;
+				margin-top: 0;
+			}
+		}
+
+		/* ============ desktop view .end// ============ */
+		/* ============ mobile view ============ */
+
+		@media(max-width: 991px) {
+
+			.navbar.fixed-top .navbar-collapse,
+			.navbar.sticky-top .navbar-collapse {
+				overflow-y: auto;
+				max-height: 90vh;
+				margin-top: 10px;
+			}
+		}
+
+		/* ============ mobile view .end// ============ */
+	</style>
+
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function () {
+			/////// Prevent closing from click inside dropdown
+			document.querySelectorAll('.dropdown-menu').forEach(function (element) {
+				element.addEventListener('click', function (e) {
+					e.stopPropagation();
+				});
+			})
+		});
+	        // DOMContentLoaded  end
+	</script>
+
+	<!-- Header menubar end -->
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light fixed-top" id="ftco-navbar" >
+		<div class="container">
+			<!-- <a href="index.html"> -->
+				<img src="images/Final Logo/Landscape logo-01.png" onclick="location.href='index.html'; "  width="15%">
+			<!-- </a> -->
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+						<li class="nav-item">
+						<!-- <nav class="navbar navbar-expand-lg"> -->
+						<div class="collapse navbar-collapse" id="main_nav">
+							<ul class="navbar-nav">
+								<li class="nav-item dropdown has-megamenu ">
+									<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Services
+									</a>
+									<div class="dropdown-menu megamenu" role="menu"
+										style="background: whitesmoke; opacity: 0.9;">
+										<div class="row ">
+											<div class="col-md-3 ">
+												<div class="col-megamenu">
+													<h6 class="title" style="color: green; margin-left: 20%;">Accounting
+														Services</h6>
+													<ul class="list-unstyled" style="margin-left: 20%;">
+
+														<li class="bookkeeping-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="bookkeeping.html">Bookkeeping</a></li>
+														<li class="Payroll-Processing-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="payroll_processing.html">Payroll Processing</a>
+														</li>
+														<li class="ar-management-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;" href="ar_ap.html">AR &
+																AP Management</a></li>
+														<li class="virtual-accounting-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="virtual_accounting.html">Virtual Accounting</a>
+														</li>
+														<li class="year-end-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;" href="year_end.html">Year-end
+																Finalization
+																Services</a></li>
+
+														<li class="financial-statement-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="financial-statement.html">Preparation
+																of Financial Statements </a></li>
+
+														<li class="quickbooks-acc-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;" href="quickbook.html">QuickBooks
+																Accounting</a></li>
+														<li class="xero-acc-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;" href="xero.html">Xero
+																Accounting</a></li>
+
+													</ul>
+												</div>
+												<!-- col-megamenu.// -->
+											</div>
+											<!-- end col-3 -->
+											<div class="col-md-3 ">
+												<div class="col-megamenu">
+													<h6 class="title" style="color: green; margin-left: 20%;">Control
+														Accounts Reconciliations</h6>
+													<ul class="list-unstyled" style="margin-left: 20%;">
+
+														<li class="credit-card-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="bank_credit_card.html">Bank &
+																Credit
+																Card Reconciliation</a></li>
+														<li class="customer-vendor-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="customer_vender.html">Customer
+																& Vendor Reconciliation </a></li>
+														<li class="payroll-reconciliation-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="payroll-reconcilation.html">Payroll
+																Reconciliation </a></li>
+														<li class="management-reporting-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="accounting_reporting.html">Management Accounting
+																&amp; Reporting</a></li>
+														<li class="review-supervision-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="periodical_supervision.html">Periodical Review and
+																Supervision</a></li>
+
+
+													</ul>
+												</div>
+												<!-- col-megamenu.// -->
+											</div>
+											<!-- end col-3 -->
+											<div class="col-md-3 ">
+												<div class="col-megamenu">
+													<h6 class="title" style="color: green; margin-left: 20%;">Business
+														Analysis</h6>
+													<ul class="list-unstyled" style="margin-left: 20%;">
+														<li class="cost-analysis-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;" href="cost_analysis.html">Cost
+																Analysis</a>
+														</li>
+														<li class="business-operation-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;"
+																href="business_analysis.html">Business Operations
+																Analysis</a></li>
+
+
+													</ul>
+												</div>
+												<!-- col-megamenu.// -->
+											</div>
+											<div class="col-md-3 ">
+												<div class="col-megamenu">
+													<h6 class="title" style="color: green; margin-left: 20%;">CFO
+														Service</h6>
+													<ul class="list-unstyled" style="margin-left: 20%;">
+														<li class="virtual-cfo-icon"><a
+																class="current_page_item nav-link nav-item"
+																style="color: #083f5f;" href="virtual_cfo.html">Virtual
+																CFO Services<br />
+															</a></li>
+
+													</ul>
+												</div>
+												<!-- col-megamenu.// -->
+											</div>
+											<!-- end col-3 -->
+										</div>
+										<!-- end row -->
+									</div>
+									<!-- dropdown-mega-menu.// -->
+								</li>
+							</ul>
+
+						</div>
+					</li>
+					<li class="nav-item"><a href="engagement-models.html" class="nav-link">Engagement Models</a></li>
+					<li class="nav-item"><a href="why_us.html" class="nav-link">Why Us?</a></li>
+					<li class="nav-item "><a href="about.html" class="nav-link">About Us</a></li>
+					<!-- <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li> -->
+				
+
+
+				
+					
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+
+			</div>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');"
+		data-stellar-background-ratio="0.5">
+		<div class=""></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-center justify-content-center">
+				<div class="ftco-animate pb-5 text-center">
+					<!-- <h1 class="b-0 bread text-block">Terms & Conditions</h1> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pt bg-light">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<!-- <div class="col-md-6 d-flex">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
+    				</div>
+    			</div> -->
+				<div class="col-md-12">
+					<div class="heading-section pl-md-4 pt-md-5">
+						<span class="subheading text-center">Welcome to Flexiglobe</span>
+						<!-- <privacy statement> -->
+						<h2 class="mb-4 text-center">Privacy Statement</h2>
+						<p>We do not collect personal information about you unless you choose to provide that
+							information to us or you choose a service on this web site where gathering personal
+							information is necessary in order to deliver the specific services. But use of those
+							services is voluntary.</p>
+						<p>If you do nothing during your visit to our web site, but browse or download information, our
+							web server automatically gathers and stores certain information. This information does not
+							personally identify you, and your email address is not collected in this automatic process.
+							The information that is automatically collected and stored is:</p>
+						<p>
+						<ul>
+							<li>Your Internet domain and Internet Protocol Address.</li>
+							<li>The type of browser and operating system you used to access our site.</li>
+							<li>The date and time of your visit to our site.</li>
+							<li>The web pages or services you accessed at this site.</li>
+							<li>The IP address of the web site from which you came to this site.</li>
+							<li>The web site to which you go when you leave this site.</li>
+							<li>If you downloaded a form, the form that was downloaded.</li>
+						</ul>
+						</p>
+						<p>We use this information to evaluate and improve the content and make our site more useful to
+							our visitors. We also use it to diagnose problems with our server, to keep our server
+							running smoothly, and to learn about the number of visitors to our site and the types of
+							technology they use. This information does not identify or track you personally.</p>
+						<p>FAPL makes every attempt to avoid the use of “cookies,” the simple text files stored on your
+							computer by your web browser. Cookies may be used on our site when needed to maintain the
+							functionality of an interactive application and is used only during the session in which you
+							access the interactive application. Cookies created on your computer by using this web site
+							do not contain personal information and do not compromise your privacy or security. The
+							cookie feature is used only to store a randomly generated identifying temporary tag on your
+							computer. You can refuse the cookie or delete the cookie file from your computer by using
+							any of the widely available methods. However, if you turn off your cookie option, you may
+							not be able to access some of the features in our interactive applications.</p>
+						<h3 class="mb-4">If you send us e-mail</h3>
+						<p>If you choose to send us e-mail that has included personal information, normally we will use
+							the information only to respond to your message and for no other purposes. Sometimes we may
+							forward your e-mail to a different agency that may be better able to help you. We do not use
+							the information to create personal profiles or give it to others for commercial use or other
+							purposes. However, if you send us a threat or a message that describes or promotes unlawful
+							activity, we will share it with law enforcement authorities.</p>
+						<h3 class="mb-4">Information not advice</h3>
+						<p>This site includes areas that will give information that is intended to help consumers find
+							web development assistance, learn about the Internet and various Web technologies, or work
+							better with a development firm. This site and the information provided, however, do not
+							constitute actual advice and must not be used as a substitute for the counsel and services
+							that you may require from real person.</p>
+						<h3 class="mb-4">Links</h3>
+						<p>This web site contains links to other sites. When you link to another site, you are no longer
+							on our site and are subject to privacy and other practices of the new site. FAPL is not
+							responsible for the practices or content of these or any other sites.</p>
+						<h3 class="mb-4">Disclaimers</h3>
+						<p>FAPL attempts to maintain the accuracy of the content of its web site. Any errors or
+							omissions should be reported.</p>
+						<p>FAPL makes no claims, promises, or guarantees about the absolute accuracy, completeness, or
+							adequacy of the contents of this web site and expressly disclaims liability for errors and
+							omissions in the contents. No warranty of any kind, implied or expressed, or statutory,
+							including but not limited to the warranties of non-infringement of third party rights,
+							title, merchantability, fitness for a particular purpose, and freedom from computer virus,
+							is given with respect to the contents of this web site or its hyperlinks to other Internet
+							resources. Reference in this web site to any specific commercial products, processes, or
+							services, or the use of any trade, firm, or corporation name is for the information and
+							convenience of the public, and does not constitute endorsement, recommendation, or favoring
+							by FAPL, or its employees or agents.</p>
+						<!-- </privacy statement> -->
+						<!-- <Terms of Service> -->
+						<h2 class="mt-2 mb-4 text-center">Terms of Service </h2>
+						<h3 class="mb-4">Quotations</h3>
+						<p>All quotations supplied by Flexiglobe advisors Pvt. Ltd. (Flexiglobe advisors) are valid for
+							one month, unless stated otherwise.</p>
+						<h3 class="mb-4">Payment Terms</h3>
+						<p>The client will be invoiced on completion of the work unless otherwise stated in the
+							quotation. Flexiglobe advisors requires the client to pay all invoices within 14 days from
+							the invoice date. Should Flexiglobe advisors be unable to complete the quoted support
+							services within the agreed timeframe due to the client’s inability to supply the necessary
+							documentation or electronic data etc., then FLEXIGLOBE ADVISORS will issue an interim
+							invoice for any work completed to date. The client agrees to pay this amount within 14 days
+							of the invoice date. Payments can be made by credit card, cheque or direct bank wire
+							electronic deposit.</p>
+						<h3 class="mb-4">Nonpayment</h3>
+						<p>Customer’s failure to pay an invoice when due shall be a sufficient cause for cancellation of
+							services any Statement of Work by and any service request from client. Provider shall
+							exercise such right of cancellation by submitting a notice for non-payment (“Non-payment
+							Notice”) for to Client via mail which not responded back 2 business days will be assumed as
+							accepted. If Client fails to cure the non-payment within the required fourteen day period,
+							Provider shall have the right to cancellation services rendering and any and all Statement
+							of Works/ service requests as of the fifteenth day after the date of the Non-payment Notice.
+						</p>
+						<h3 class="mb-4">Cancellation of Service</h3>
+						<p>Should the client wish to cancel their quotation acceptance, then Flexiglobe advisors will
+							invoice the client for any work completed to date. The client must advise Flexiglobe
+							advisors by telephone and in writing of the request not to proceed with the work.</p>
+						<h3 class="mb-4">Data Errors & Liability</h3>
+						<p>FLEXIGLOBE ADVISORS will exercise all due care to ensure that business data is free of
+							errors, however will not accept responsibility for data errors provided to Flexiglobe
+							advisors by the client. Flexiglobe advisors will correct any errors made by their Flexiglobe
+							advisors Team in the course of working on a client’s accounts. It is essential that the
+							client carries out a full review of their accounts structure and data following the
+							provision of FLEXIGLOBE ADVISORS bookkeeping services. Clients must review all work
+							completed by FLEXIGLOBE ADVISORS within one Month of it being returned to them and any
+							necessary changes must be brought to our attention immediately. After one month no liability
+							for incorrect entering will be accepted by FLEXIGLOBE ADVISORS.</p>
+						<p>The Queries & Assumptions, draft reports requiring client review send to the client for
+							postings of business books require confirmation within 3 weeks of mail sent. Beyond that, we
+							assume that our reports were assumptions and reports were correct.</p>
+						<p>Payroll Reports, GST, VAT, Sales tax, Payroll Taxes, year-end accounts workings and tax
+							returns sent to the client requires affirmations from client in 1 week. After that, we
+							assume that our working was correct and base our further work on that.</p>
+						<p>Flexiglobe advisors does not accept any responsibility for losses or damage arising from
+							errors initially contained within documentation or electronic data provided by the client.
+						</p>
+						<h3 class="mb-4">Limitation Of Liability</h3>
+						<p>Each party’s total liability under this agreement is limited to the value of services
+							rendered. In no event shall either party be liable to the other, whether in contract or in
+							tort or under any other legal or equitable theory (including strict liability) for any
+							indirect, incidental, exemplary, punitive, special or consequential damages, including loss
+							of profits, revenue, data or use or for interrupted communications, incurred by either party
+							in connection with this agreement, even if the other party or any other person has been
+							advised of the possibility of such damages.</p>
+						<ul>
+							<li><span style="background-color:transparent;color:#000000;">Disputes</span></li>
+							<p>Flexiglobe advisors and Client agree that any dispute or controversy arising out of,
+								relating to or in connection with the interpretation, validity, construction,
+								performance, breach or termination, of this Agreement shall be settled by binding
+								arbitration, in accordance with the prevailing regulations of Jaipur, Rajasthan ,India
+								courts.</p>
+							<li><span style="background-color:transparent;color:#000000;">Costs</span></li>
+							<p>Flexiglobe advisors and Client shall each pay one-half of the costs and expenses of such
+								arbitration, and each shall separately pay its counsel fees and expenses unless
+								otherwise required by law.</p>
+						</ul>
+						<h3 class="mb-4">Disclaimer</h3>
+						<p>Flexiglobe advisors assumes no responsibility for the accuracy of documentation or electronic
+							data supplied by the client. Flexiglobe advisors makes no warranties or representations of
+							any kind with respect to the information on www.Flexiglobe advisorsoutsourcing.com, express
+							or implied, including but not limited to warranties of merchantability or fitness for a
+							particular purpose. All users agree that all access to and use of www.Flexiglobe
+							advisorsoutsourcing.com and any linked website and the content thereof is at their own risk.
+							Neither Flexiglobe advisors nor any party involved in creating, producing or delivering
+							www.Flexiglobe advisorsoutsourcing.com shall be liable to any person for any direct,
+							incidental, special, consequential, indirect or punitive damages arising out of access to,
+							use of, reliance on or inability to use www.Flexiglobe advisorsoutsourcing.com, or any
+							errors or omissions in the content thereof.</p>
+						<p>No advice or information, whether oral or written obtained by you from
+							www.Flexiglobeadvisors.com, or through the service shall create any warranty/liability
+							against www.Flexiglobeadvisors.com in any way.</p>
+						<!-- </Terms of Service> -->
+						<!-- <term of use> -->
+						<h2 class="mt-2 mb-4 text-center">Terms of Use </h2>
+						<p>he following terms and conditions will be deemed to have been accepted by the User on usage
+							of the website https://www.Flexiglobeadvisors.com. You are requested to read them carefully
+							before you use the services of this site.</p>
+						<h3 class="mb-4">Definitions</h3>
+						<p>The term “User” shall refer to the user who is browsing the site. The term “FAPL” shall refer
+							to Flexiglobe advisors Pvt Ltd. The term “Site” refers to https://www.Flexiglobeadvisors.com
+							owned and monitored by FAPL.</p>
+						<h3 class="mb-4">Copyright</h3>
+						<p>All content present on this site is the exclusive property of FAPL. The software, text,
+							images, graphics, video and audio used on this site belong to FAPL. No material from this
+							site may be copied, modified, reproduced, republished, uploaded, transmitted, posted or
+							distributed in any form without prior written permission from FAPL. All rights not expressly
+							granted herein are reserved. Unauthorized use of the materials appearing on this site may
+							violate copyright, trademark and other applicable laws, and could result in criminal or
+							civil penalties.</p>
+						<h3 class="mb-4">Disclaimer of Warranty</h3>
+						<p>By using the Site, you agree to follow and be bound by the following terms and conditions
+							concerning your use of the Site. FAPL may revise the Terms of Use at any time without notice
+							to you. FAPL may terminate User’s access at any time for any reason. The provisions
+							regarding to disclaimer of warranty, accuracy of information and indemnification shall
+							survive such termination. FAPL may monitor access to the Site.</p>
+						<p>FAPL does not make any warranties, express or implied, including, without limitation, those
+							of merchantability and fitness for a particular purpose, with respect to any information,
+							data, statements or products made available on the Site. The Site, and all content,
+							materials, information, software, products and services provided on the Site, are provided
+							on an “as is” and “as available” basis. FAPL expressly disclaims all warranties of any kind,
+							whether express or implied, including, but not limited to, the implied warranties of
+							merchantability, fitness for a particular purpose and non-infringement.</p>
+						<p>In no event will FAPL be liable for damages of any kind, including without limitation,
+							direct, incidental or consequential damages (including, but not limited to, damages for lost
+							profits, business interruption and loss of programs or information) arising out of the use
+							of or inability to use FAPL’s website, or any information provided on the website, or in the
+							Products any claim attributable to errors, omissions or other inaccuracies in the Product or
+							interpretations thereof. Some jurisdictions do not allow the limitation or exclusion of
+							liability. Accordingly, some of the above limitations may not apply to the User.</p>
+						<p>FAPL makes no warranty that: (a) the Site will meet your requirements; (b) the Site will be
+							available on an uninterrupted, timely, secure, or error-free basis; (c) the results that may
+							be obtained from the use of the Site or any services offered through the Site will be
+							accurate or reliable. FAPL shall have no responsibility for any damage to User’s computer
+							system or loss of data that result from the download of any content, materials, information
+							from the Site.</p>
+						<!-- </term of use> -->
+						<!-- <right to modification> -->
+						<h2 class="mb-4 text-center">Right To Modification</h2>
+						<h3 class="mb-4">Indemnification</h3>
+						<p>User agrees to indemnify, defend and hold FAPL harmless from and against all losses,
+							expenses, damages and costs, including reasonable attorneys’ fees, arising out of or
+							relating to any misuse by the User of the content and services provided on the Site.</p>
+						<h3 class="mb-4">Sources of Information</h3>
+						<p>The information contained in the Site has been obtained from sources believed to be reliable.
+							FAPL disclaims all warranties as to the accuracy, completeness or adequacy of such
+							information.</p>
+						<h3 class="mb-4">Privacy Policy</h3>
+						<p>The User’s right to privacy is of paramount importance to FAPL. Any information provided by
+							the User will NOT be shared with any third party unless expressly authorized by the user.
+							FAPL reserves the right to use the information to provide the User a more personalized
+							online experience.</p>
+						<p>We would also like you to know that we have aligned our privacy policies with the EU General
+							Data Protection Regulation, UK GDPR, and the Data Protection Act 2018 as amended (GDPR) and
+							we support this initiative taken by the EU Parliament. The processing of personal data by
+							Flexiglobe advisors, such as the name, contact number, email address of a person visiting
+							our website shall always be in line with the General Data Protection Regulation (GDPR). As
+							the controller, Flexiglobe advisors has implemented multiple securities to ensure the
+							complete protection of data submitted and processed through this website.</p>
+						<h3 class="mb-4">Third Party Information</h3>
+						<p>The Site provides links to web sites and access to content, products and services from third
+							parties, including users, advertisers, affiliates and sponsors of the Site. You agree that
+							FAPL is not responsible for the availability of, and content provided on, third party web
+							sites. The User is requested to peruse the policies posted by other web sites regarding
+							privacy and other topics before use. FAPL is not responsible for third party content
+							accessible through the Site, including opinions, advice, statements and advertisements, and
+							User shall bear all risks associated with the use of such content. FAPL is not responsible
+							for any loss or damage of any sort User may incur from dealing with any third party.</p>
+						<!-- </right to modification> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="ftco-counter bg-light ftco-no-pt" id="section-counter">
+		<div class="container">
+			<div class="row d-flex justify-content-around">
+				<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 text-center">
+						<div class="text">
+							<strong class="number" data-number="10">0</strong>
+						</div>
+						<div class="text">
+							<span>Countries Served</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 text-center">
+						<div class="text">
+							<strong class="number" data-number="150">0</strong>
+						</div>
+						<div class="text">
+							<span>Client Projects</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 text-center">
+						<div class="text">
+							<strong class="number" data-number="20">0</strong>
+						</div>
+						<div class="text">
+							<span>Expert Consultants</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section> -->
+
+
+	<!-- <section>
+		<div class="team">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class=" text-center mb-4">
+						<h2><span class="ion-minus"></span>Our Team<span class="ion-minus"></span></h2>
+					</div>
+				</div>
+
+				<div class="row text-center">
+
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<img class="img-rounded" alt="team-photo" src="https://images.pexels.com/photos/428333/pexels-photo-428333.jpeg?h=350&auto=compress&cs=tinysrgb" width="100%">
+
+						<div class="team-member">
+							<h4>CA Kavin Shah</h4>
+							<h5>Director and Founder</h5>
+							<p>Years Of Experience : 5+ Years</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<img class="img-rounded" alt="team-photo" src="https://images.pexels.com/photos/295821/pexels-photo-295821.jpeg?h=350&auto=compress&cs=tinysrgb" width="100%">
+
+						<div class="team-member">
+							<h4>CA Saurabh Loya</h4>
+							<h5>Director and Co-Founder</h5>
+							<p>Years Of Experience : 2+ Years</p>
+						</div>
+
+
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<img class="img-rounded" alt="team-photo" src="https://images.pexels.com/photos/295821/pexels-photo-295821.jpeg?h=350&auto=compress&cs=tinysrgb" width="100%">
+
+						<div class="team-member">
+							<h4>CA Kavin Shah</h4>
+							<h5>Director and Co-Founder</h5>
+							<p>Years Of Experience : 2+ Years</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+
+<footer class="footer">
+		<div class="container-fluid px-lg-5">
+			<div class="row">
+				<div class="col-md-12 py-5">
+					<div class="row">
+						<div class="col-md-4 mb-md-0 d-flex justify-content-center">
+							<div>
+								<h2 class="footer-heading">About us</h2>
+							<!-- <p>FlexiGlobe Advisors Private Limited is provider of Bookkeeping, Payroll and Business
+								Management services.</p> -->
+							<ul class="ftco-footer-social p-0">
+								<li class="ftco-animate"><a href="https://twitter.com/flexiglobe_adv?s=21"
+										target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><span
+											class="fa fa-twitter"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.facebook.com/flexiglobeadvisors/"
+										target="_blank" data-toggle="tooltip" data-placement="top"
+										title="Facebook"><span class="fa fa-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.instagram.com/flexiglobe.advisors"
+										target="_blank" data-toggle="tooltip" data-placement="top"
+										title="Instagram"><span class="fa fa-instagram"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.linkedin.com/company/flexiglobe-advisors"
+										target="_blank" data-toggle="tooltip" data-placement="top"
+										title="Instagram"><span class="fa fa-linkedin-square"></span></a></li>
+							</ul>
+							<a href="index.html"><img src="images/Final Logo/Landscape logo-01.png" width="70%"></a>
+							</div>
+						</div>
+
+						<div class="col-md-4 mb-md-0 d-flex justify-content-center">
+							<div>
+							<h2 class="footer-heading">Contact Us</h2>
+							<!-- <p>FlexiGlobe Advisors Private Limited is provider of Bookkeeping, Payroll and Business
+								Management services.</p> -->
+							<p style="color:rgba(255, 255, 255, 0.5);"><a style="color:rgba(255, 255, 255, 0.5);text-decoration: none;" href="https://g.page/skpsandco?share"> Office No. 302, 3rd Floor, Payal Apartment, <br>Lane No. 14, Prabhat Road, Erandwane,<br> Pune – 411004, Maharashtra, India.</a></p>
+							<p style="color:rgba(255, 255, 255, 0.5);">
+							<a href="tel:+917304115414" style="color:rgba(255, 255, 255, 0.5);text-decoration: none;"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp +91 7304115414</a> <br>
+							<a href="mailto:info@flexiglobeadvisors.com" style="color:rgba(255, 255, 255, 0.5);text-decoration: none;"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp info@flexiglobeadvisors.com</a>
+								
+							</p>
+							<p style="color:rgba(255, 255, 255, 0.5);"><a style="color:rgba(255, 255, 255, 0.5);text-decoration: none;" href="https://g.page/skpsandco?share"><i class="fa fa-location-arrow" aria-hidden="true"></i> &nbsp Navigation</a></p>
+							</div>
+						</div>
+
+						<div class="col-md-4 mb-md-0 d-flex justify-content-center">
+							<div>
+								<h2 class="footer-heading">About us</h2>
+							<!-- <p>FlexiGlobe Advisors Private Limited is provider of Bookkeeping, Payroll and Business
+								Management services.</p> -->
+							<ul class="list-unstyled ">
+												<li><a style="text-decoration: none;" href="about.html " class="py-1 d-block ">About Us</a></li>
+												<li><a style="text-decoration: none;" href="contact.html " class="py-1 d-block ">Contact Us</a></li>
+												<li><a style="text-decoration: none;" href="terms_and_condition.html " class="py-1 d-block ">Terms
+														&amp; Conditions</a></li>
+												<li><a style="text-decoration: none;" href="# " class="py-1 d-block ">Policies</a></li>
+											</ul>
+							</div>
+							
+						</div>
+
+						</div>
+					<div class="row mt-md-5 text-center">
+						<div class="col-md-12">
+							
+            <div class="col-md-12 text-center devloped-by " style="color:rgba(255, 255, 255, 0.5);">
+                Developed By &nbsp;
+                <a style=" text-decoration: none;" href="https://neuromonk.com/">
+                    <svg width="25" height="25" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.02779 0C-1.21515 4.13633 -0.49085 10.1175 3.64548 13.3604L27.8123 32.3032C31.0553 28.1669 30.331 22.1858 26.1946 18.9428L2.02779 0Z"
+                            fill="url(#paint0_linear_19_662)" />
+                        <path d="M26.1947 18.9428L2.02782 0L26.1947 18.9428Z" fill="url(#paint1_linear_19_662)" />
+                        <path
+                            d="M2.75208 6.62975C0.75584 5.06506 0.387383 2.20067 1.89403 0.179199C-1.18992 4.30795 -0.430297 10.1629 3.64798 13.3579L27.8148 32.3007C28.8798 30.9404 29.5158 29.3808 29.7429 27.7858L2.75208 6.62975Z"
+                            fill="url(#paint2_linear_19_662)" />
+                        <path
+                            d="M25.0842 0.981934C22.457 0.981934 20.327 3.11193 20.327 5.73909V7.55867C20.327 10.9227 21.6242 14.1581 23.9485 16.5884L26.1971 18.9405C29.2155 21.3077 30.4142 25.1336 29.5814 28.6365C29.748 28.152 29.8413 27.6346 29.8413 27.0945V5.73656C29.8413 3.11193 27.7114 0.981934 25.0842 0.981934Z"
+                            fill="url(#paint3_linear_19_662)" />
+                        <path
+                            d="M3.64802 13.358C1.20509 11.4425 -0.0466545 8.57053 0.00381934 5.68848C0.00381934 5.70614 0.00129318 5.72128 0.00129318 5.73895V26.9632C0.00129318 29.5247 1.96977 31.7304 4.52879 31.849C7.26195 31.9777 9.5156 29.7998 9.5156 27.0969V24.7423C9.5156 21.3783 8.21843 18.1429 5.89411 15.7126L3.64802 13.358Z"
+                            fill="url(#paint4_linear_19_662)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_19_662" x1="30.375" y1="29.6089" x2="-0.0446663"
+                                y2="3.11676" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#1E50FF" />
+                                <stop offset="1" stop-color="#0C2429" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_19_662" x1="25.7671" y1="19.6208" x2="2.82491"
+                                y2="-0.359253" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF6E3B" />
+                                <stop offset="1" stop-color="#FFD727" />
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_19_662" x1="29.7761" y1="30.2968" x2="-0.630445"
+                                y2="3.81603" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#0C2429" />
+                                <stop offset="1" stop-color="#1E50FF" />
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_19_662" x1="21.0492" y1="20.1081" x2="33.615" y2="7.54225"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#0C2429" />
+                                <stop offset="1" stop-color="#1E50FF" />
+                            </linearGradient>
+                            <linearGradient id="paint4_linear_19_662" x1="-3.44137" y1="25.5817" x2="8.22769"
+                                y2="13.9126" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#1E50FF" />
+                                <stop offset="1" stop-color="#0C2429" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <b class="ni">
+                        &nbsp; Neuromonk
+                        Infotech</b> </a>
+            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<a href="contact.html"><button type="button" class="sidebtn" ><i class="fa fa-phone" aria-hidden="true"></i> &nbsp Contact Us</button></a>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
